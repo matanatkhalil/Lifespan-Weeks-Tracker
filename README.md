@@ -35,7 +35,8 @@ A visual representation of your life in weeks. See how many weeks you've lived a
 This project was inspired by the "Life Calendar" concept - visualizing life in weeks to encourage living intentionally and making the most of our limited time.
 
 ## Screenshot
-<img width="1352" height="599" alt="screenshot_life_visualizer" src="https://github.com/user-attachments/assets/333a0a9f-a4ec-4fb1-8263-f527cc545dac" />
+<img width="1351" height="605" alt="screenshot_lifespan_tracker" src="https://github.com/user-attachments/assets/2b910e4a-c85c-4f10-b4ac-223f991c390c" />
+
 
 Note: Scroll down to see the full visualization grid!
 
