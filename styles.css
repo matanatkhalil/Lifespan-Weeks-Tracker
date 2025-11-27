@@ -1,0 +1,41 @@
+body {background-image: url("images/image.source-unsplash.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+font-family: 'Georgia', serif;
+font-size: 70px;
+color: white;
+text-align: center;
+}
+
+input {font-size: 60px;
+max-width: 450px;
+width: 100%;
+margin: 30px 0;
+padding: 10px;}
+
+button {font-size: 50px;
+max-width: 450px;
+width: 100%;
+padding: 20px 20px;
+background-color: white;
+margin-bottom: 40px;
+cursor: pointer;
+}
+
+#total, #lived, #remaining {
+   margin-right: 50px;
+}
+
+#LifeCanvas {
+    display: block;
+    margin: 30px auto;
+}
+.quote {
+    font-size: 70px;
+    font-style: italic;
+    margin-bottom: 100px
+}
+.author {font-size: 65px;
+font-style: normal;
+}
