@@ -35,10 +35,13 @@ A visual representation of your life in weeks. See how many weeks you've lived a
 This project was inspired by the "Life Calendar" concept - visualizing life in weeks to encourage living intentionally and making the most of our limited time.
 
 ## Screenshot
-<img width="1351" height="605" alt="screenshot_lifespan_tracker" src="https://github.com/user-attachments/assets/2b910e4a-c85c-4f10-b4ac-223f991c390c" />
+<img width="1350" height="641" alt="image" src="https://github.com/user-attachments/assets/3479d6b3-f4a4-44b0-8c54-9a9030344414" />
 
 
 Note: Scroll down to see the full visualization grid!
+
+## Live Demo
+Check it out here: [Lifespan Weeks Tracker](https://lifespan-weeks-tracker.netlify.app/)
 
 ## Feedback Welcome!
 Open an issue or reach out – always happy to connect.
