@@ -3,39 +3,101 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 font-family: 'Georgia', serif;
-font-size: 70px;
+font-size: 1.3rem;
 color: white;
 text-align: center;
 }
 
-input {font-size: 60px;
-max-width: 450px;
-width: 100%;
-margin: 30px 0;
-padding: 10px;}
+input {font-size: clamp(1rem, 1vw, 2rem);
+width: 4rem;
+max-width: none;
+margin: 0.5rem 0;
+padding: 0.2rem 0.3rem;
+box-sizing: border-box;
+vertical-align: middle;
+}
 
-button {font-size: 50px;
-max-width: 450px;
-width: 100%;
-padding: 20px 20px;
+input[placeholder="YYYY"] {
+    width: 5rem;
+}
+
+button {font-size: clamp(1rem, 1vw, 2rem);
+width: auto;
 background-color: white;
-margin-bottom: 40px;
+padding: 0.5rem;
+border: 1px solid grey;
 cursor: pointer;
+margin: 0.7rem 0;
 }
 
 #total, #lived, #remaining {
-   margin-right: 50px;
+   margin-right: 1.5rem;
 }
 
 #LifeCanvas {
     display: block;
-    margin: 30px auto;
+    margin: 1rem auto;
 }
+
 .quote {
-    font-size: 70px;
+    font-size: clamp(1rem, 2vw, 3rem);
     font-style: italic;
-    margin-bottom: 100px
+    margin-bottom: 1.5rem;
 }
-.author {font-size: 65px;
+
+.author {font-size: clamp(1.2rem, 2vw, 2.5rem);
 font-style: normal;
 }
+
+/* Mobile phones (portrait) */
+@media (max-width: 576px) {
+    body {
+        font-size: 1rem;
+    }
+    
+    input {
+        width: 3rem;
+        font-size: 1rem;
+        margin: 0 0.3rem;
+    }
+    
+    input[placeholder="YYYY"] {
+        width: 4rem;
+    }
+    
+    button {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    
+    #total, #lived, #remaining {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        font-size: 1.1rem;
+    }
+    
+    input {
+        width: 3.5rem;
+    }
+}
+
+/* Landscape phones and small tablets */
+@media (max-width: 768px) and (orientation: landscape) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.4rem;
+    }
+}
+

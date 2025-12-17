@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles.css"> 
     </head>
     <body>
+        <main>
         <h1><strong>Your Life in Weeks</strong></h1>
         <blockquote class="quote">
             "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did."<br>
@@ -18,7 +19,7 @@
             <input type="number" id="day" name="day" min="1" max="31" placeholder="DD" style="max-width: 140px">
             <input type="number" id="year" name="year" min="1900" max="2025" placeholder="YYYY" style="max-width: 180px"><br>
             <label for="lifeExpantancy">Life Expantancy (years):</label>
-            <input type="number" min="30" id="lifeExpantancy" name="lifeExpantancy" value="80"><br>
+            <input type="number" min="30" id="lifeExpantancy" name="lifeExpantancy" value="100"><br>
             <button id="calculate-btn">Calculate My Life</button><br>
         </div>
         <div class="result">
@@ -32,6 +33,7 @@
         <div class="visualization">
             <canvas id="LifeCanvas"></canvas>
         </div>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
