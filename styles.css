@@ -3,7 +3,7 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center;
 font-family: 'Georgia', serif;
-font-size: 1.3rem;
+font-size: 1rem;
 color: white;
 text-align: center;
 }
@@ -40,12 +40,12 @@ margin: 0.7rem 0;
 }
 
 .quote {
-    font-size: clamp(1rem, 2vw, 3rem);
+    font-size: clamp(0.8rem, 1.2rem, 3rem);
     font-style: italic;
     margin-bottom: 1.5rem;
 }
 
-.author {font-size: clamp(1.2rem, 2vw, 2.5rem);
+.author {font-size: clamp(0.8rem, 1.2rem, 2.5rem);
 font-style: normal;
 }
 
@@ -53,12 +53,6 @@ font-style: normal;
 @media (max-width: 576px) {
     body {
         font-size: 1rem;
-    }
-    
-    input {
-        width: 3rem;
-        font-size: 1rem;
-        margin: 0 0.3rem;
     }
     
     input[placeholder="YYYY"] {
@@ -70,10 +64,6 @@ font-style: normal;
         padding: 0.5rem;
     }
     
-    #total, #lived, #remaining {
-        display: block;
-        margin: 0.5rem 0;
-    }
 }
 
 /* Tablets */
@@ -100,4 +90,3 @@ font-style: normal;
         font-size: 1.4rem;
     }
 }
-
