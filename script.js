@@ -38,18 +38,18 @@ const drawLifeVisualization=(lived, total)=>{
     const canvas=document.getElementById('LifeCanvas');
     const ctx=canvas.getContext("2d")
   
-    const boxSize=7; 
-    const gap=5;  
+    const boxSize=4; 
+    const gap=3;  
     const cols=52; 
     const rows=Math.ceil(total/cols);
-    canvas.width=cols*(boxSize+gap)+10;
-    canvas.height=rows*(boxSize+gap)+10;
+    canvas.width=cols*(boxSize+gap)+4;
+    canvas.height=rows*(boxSize+gap)+4;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let i=0; i<total; i++) {
-        const x=(i%cols)*(boxSize+gap)+10;
-        const y=Math.floor(i/cols)*(boxSize+gap)+10;
+        const x=(i%cols)*(boxSize+gap)+4;
+        const y=Math.floor(i/cols)*(boxSize+gap)+4;
         
         if (i<lived) {
             ctx.fillStyle="#8ae18dff"; 
