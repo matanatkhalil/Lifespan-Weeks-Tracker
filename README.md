@@ -3,6 +3,7 @@ A visual representation of your life in weeks. See how many weeks you've lived a
 
 ## Features
 - Calculate total weeks, weeks lived, and weeks remaining
+- Responsive design (works on mobile and tablets too)
 - Visual grid representation where each box = 1 week
 - Green boxes show weeks you've already lived
 - White boxes show weeks remaining
@@ -34,8 +35,9 @@ A visual representation of your life in weeks. See how many weeks you've lived a
 ## Inspiration
 This project was inspired by the "Life Calendar" concept - visualizing life in weeks to encourage living intentionally and making the most of our limited time.
 
-## Screenshot
-<img width="1350" height="641" alt="image" src="https://github.com/user-attachments/assets/3479d6b3-f4a4-44b0-8c54-9a9030344414" />
+## Screenshot on Mobile
+![your-life-in-weeks-ss](https://github.com/user-attachments/assets/0f7ae0ea-a97d-4daf-8f40-530cf1cf630e)
+
 
 
 Note: Scroll down to see the full visualization grid!
